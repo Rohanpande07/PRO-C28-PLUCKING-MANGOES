@@ -11,9 +11,9 @@ class Launcher{
         World.add(world, this.launcher);
     }
 
-    //attach(body){
-
-    //}
+    attach(body){
+        this.launcher.bodyA = body;
+    }
 
     fly(){
         this.launcher.bodyA = null;
